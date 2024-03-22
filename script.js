@@ -69,7 +69,7 @@ const displayAverageSalary = function (employeesArray) {
       // console.log(employeesArray[i].salary);
 
       // declare variable of individual employee salary
-      // parseInt means ......
+      // parseInt means ...."parses a string argument and returns an integer of the specified radix"
       let employeeSalary = parseInt(employeesArray[i].salary);
       totalSalary = totalSalary + employeeSalary;
     }
@@ -78,7 +78,7 @@ const displayAverageSalary = function (employeesArray) {
 
     // Divides the number of employees by the total salary
     let averageSalary = totalSalary / numberOfEmployees;
-    console.log(averageSalary);
+    console.log('Average Salary:', averageSalary);
   }
 }
 
