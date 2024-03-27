@@ -82,19 +82,19 @@ const displayAverageSalary = function (employeesArray) {
   }
 }
 
-
-
-
-
 // Select a random employee
 const getRandomEmployee = function (employeesArray) {
   // TODO: Select and display a random employee
+  // If array is empty returns nothing
+  if (employeesArray === undefined) {
+    console.log("Cannot get random employee. No employees in array.");
+    return;
+  } else {
+    const randomEmployee = employeesArray[Math.floor(Math.random() * employeesArray.length)];
+    console.log('Random Employee:', randomEmployee.firstName, randomEmployee.lastName, 'Salary:', randomEmployee.salary);
+    return;
+  }
 }
-
-
-
-
-
 
 /*
   ====================
