@@ -10,7 +10,7 @@ The purpose of the employee salary tracker is to input an employee's first name,
 
 ## Installation
 
-There are no installation steps required for this project. Simply click the link provided: XXXXXXXXXXX or you can clone the repository titled Employee-Salary-Tracker-LaPierre and launch the index.html file in your default browser.
+There are no installation steps required for this project. Simply click the link provided: https://aslapi.github.io/Employee-Salary-Tracker-LaPierre/ or you can clone the repository titled Employee-Salary-Tracker-LaPierre and launch the index.html file in your default browser.
 
 ## Usage
 
